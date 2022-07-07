@@ -1,0 +1,75 @@
+.Works{
+    height: 90vh;
+    display: flex;
+    margin-top: 4rem;
+    max-width: 1080px;
+}
+
+.works-awesome{
+    margin-top: 2rem;
+}
+.w-right{
+    position: relative;
+}
+
+.w-main-circle{
+    display: flex;
+    box-shadow: var(--smboxShadow);
+    border-radius: 100%;
+    background-color: white;
+    width: 16rem;
+    height: 16rem;
+    left: 4rem;
+    top: 2.5rem;
+    position: relative;
+    border: 2px solid gray;
+    z-index: 15;
+}
+
+
+.w-main-circle>*:nth-child(1){
+    top: -2rem;
+    left: 5rem;
+}
+
+.w-main-circle>*:nth-child(2){
+    top: 5rem;
+    left: 12rem;
+}
+
+
+.w-main-circle>*:nth-child(3){
+    top: 5rem;
+    left: 5rem;
+}
+
+.w-main-circle>*:nth-child(4){
+    top: 5rem;
+    left: -2rem;
+}
+
+.w-main-circle>*:nth-child(5){
+    top: 12rem;
+    left: 5rem;
+}
+
+.w-sec-circle>img{
+    transform: scale(.6);
+}
+.w-sec-circle{
+    position: absolute;
+    background-color: bisque;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    border-radius: 100%;
+    height: 6rem;
+    width: 6rem;
+    border: 5px solid gray;
+    background: white;
+    box-shadow: var(--smboxShadow);
+}  
+
+
+

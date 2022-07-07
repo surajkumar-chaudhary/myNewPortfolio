@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Bubblegum+Sans&family=Great+Vibes&family=Josefin+Sans:wght@100;200;300;400;500;600;700&family=Lora:ital,wght@1,400;1,500;1,600;1,700&family=Varela&family=Varela+Round&display=swap');
+
+.n-wrapper{
+    height: 10vh;
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    z-index: 1000;
+}
+
+.n-left{
+    flex:1;
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+}
+
+.n-name{
+   font-size: 1.3rem;
+   font-weight: bold;
+   font-family: 'Great Vibes', cursive;
+}
+
+.n-right{
+   font-weight: 400;
+   display: flex;
+   flex: 1;
+   justify-content: center;
+   align-items: center;
+}
+
+.n-lists{
+   flex: 9;
+}
+
+.n-lists>ul{
+    display: flex;
+    gap: 1rem;
+    margin-right: 3rem;
+    list-style: none;
+    cursor: pointer;
+}
+ .n-lists>ul>li{
+     transition: .5s ;
+ }
+.n-lists>ul>li:hover{
+    color: var(--orange);
+}
+
+.n-button{
+    flex: 1;
+}

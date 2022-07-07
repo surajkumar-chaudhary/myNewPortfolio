@@ -1,0 +1,9 @@
+import Github from '../../img/github.png'
+import Linkedin from '../../img/linkedin.png'
+import Instagram from '../../img/instagram.png'
+
+<div className="i-icons">
+                <img src={Github} alt="Github" />
+                <img src={Linkedin} alt="Linkedin" />
+                <img src={Instagram} alt="instagram" />
+            </div>

@@ -1,0 +1,160 @@
+.intro{
+    display: flex;
+    height: 50vh;
+    margin-top: 6rem;
+    z-index: -400;
+    max-width: 1080px;
+}
+.i-left{
+    display: flex;
+    position: relative;
+    flex: 1;
+    flex-direction: column;
+    gap: 2rem;
+}
+.i-name{
+    display: flex;
+    flex-direction: column;
+}
+.i-name>:nth-child(1){
+    color: var(--black);
+    font-size: 3rem;
+    font-weight: bold;
+}
+.i-name>:nth-child(2){
+    font-size: 3rem;
+    font-weight: bold;
+    color: var(--orange);
+}
+.i-name>:nth-child(3){
+    font-size: 15px;
+    font-weight: 100;
+    margin-top: 10px;
+}
+.i-button{
+    width: 6rem;
+    height: 2rem;
+}
+.i-icons{
+    display: flex;
+    align-items: flex-start;
+    justify-content:flex-start;
+    gap: 0rem;
+    margin-left: 0;
+    padding: 0;
+}
+
+.i-icons>*{
+    transform: scale(.3);
+
+}
+.i-icons>*:hover{
+    cursor: pointer;
+    color: white;
+}
+
+.home-f-icons{
+    margin-top:2rem;
+    display: flex;
+    gap: 2rem;
+}
+
+.f-hover{
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.f-hover:hover{
+    transform: scale(1.2);
+}
+
+.i-right{
+    flex: 1;
+    position: relative;
+    z-index: 4;
+}
+
+.i-right>*{
+    position: absolute;
+    transform: scale(.55);
+
+}
+
+.i-right>:nth-child(1){
+    transform: scale(.65);
+    top: -5rem;
+    left: -6rem;
+}
+
+.i-right>:nth-child(2){
+    transform: scale(.5);
+    top: -10rem;
+    left: -7rem;
+    z-index: 1;
+}
+
+.i-right>:nth-child(3){
+    transform: scale(1);
+    top: -4.5rem;
+    width: 150%;
+    height: 20rem;
+    left: -8.4rem;
+    z-index: -300;
+}
+
+
+.floating-div-first{
+    top: -4rem;
+    left: 13rem;
+    z-index: 10;
+}
+
+.floating-div-second{
+    top: 10rem;
+    left: 1rem;
+    z-index: 10;
+}
+
+.floating-div-third{
+    top: -4rem;
+    left: -1rem;
+    z-index: 10;
+}
+
+.blur{
+    position: absolute;
+    width: 20rem;
+    height:20rem;
+    border-radius: 50%;
+    background: #3EEFE5;
+    filter: blur(150px);
+    top: 7rem;
+    left: 9rem;
+    z-index:-16;
+}
+.blur-position2{
+    top: -9rem;
+    left: -10rem;
+    background-color: #DE8AD8;
+    height: 20rem;
+    width: 20rem;
+    filter: blur(200px);
+    z-index:-16;
+}
+.blur-position3{
+    background-color: #DE8AD8;
+    top: -10rem;
+    left: 15rem;
+    filter: blur(160px);
+    z-index:-16;
+}
+
+.blur-position4{
+    top: 12rem;
+    left: -33rem;
+    background-color: #DE8AD8;
+    height: 8rem;
+    width: 40rem;
+    filter: blur(160px);
+    z-index: -16;
+}

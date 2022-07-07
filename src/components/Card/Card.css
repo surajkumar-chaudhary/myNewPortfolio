@@ -1,0 +1,44 @@
+
+.card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    position: absolute;
+    background: rgba(255, 255, 255, 0.26);
+    box-shadow: var(--box-shadow);
+    width: 8rem;
+    height: auto;
+    gap: .5rem;
+    border: 5px solid orange;
+    border-radius: 10px;
+    padding-inline: 1rem;
+    z-index: 10;
+}
+
+
+.card>img{
+    transform: scale(.5);
+    margin-bottom: -2rem;
+    margin-top: -1.5rem;
+}
+
+.card>span:nth-child(3){
+    font-size: .7rem;
+    color: gray;
+}
+.card>button{
+    border-radius: 5px;
+    color: gray;
+    font-size: .6rem;
+    border: 2px solid var(--orange);
+    background: rgba(255, 255, 255, 0.26);
+}
+
+.card>button{
+    margin-bottom: .5rem;
+}
+
+
+
